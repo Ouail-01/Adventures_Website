@@ -139,6 +139,7 @@ header {
     }   
 }
                     /* End Nav*/
+
                     /* Events :*/
 section {
     width: 80%;
@@ -168,6 +169,11 @@ section {
     margin-top: 50px;
 }
 
+.events .row img {
+    width: 100%;
+    height: 40vh;
+}
+
 h4 {
     font-style: 3vmin;
     color: rgb(102, 99, 129);
@@ -182,3 +188,43 @@ p {
 .events .ctn {
     margin-top: 30px;
 }
+
+                    /* End Events :*/
+                    /* Explore :*/
+.explore {
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/bg2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.explore-content {
+    width: 60%;
+    padding: 50px;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.explore-content h1 {
+    font-style: 7vmin;
+}
+
+.explore-content .line {
+    margin-bottom: 50px;
+}
+
+.explore-content p {
+    color: white;
+}
+
+.explore-content .ctn {
+    margin-top: 40px; 
+}
+
+                    /* End Explore :*/
